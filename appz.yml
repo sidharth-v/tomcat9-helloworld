@@ -1,7 +1,7 @@
 app:
   name: Tomcat Loadgen
   code: TCLG
-  notify: appzdev@cloudbourne.co
+  notify: eachakala@ecloudcontrol.com
 
 build:
   version: 0.3
@@ -12,7 +12,7 @@ build:
   image_name: alpha/tomcat9-helloworld
 
 deploy:
-  context: alpha/DEV
+  context: eeshaachakala1/DEV
   replicas: 2
   port: 
    - 8080
