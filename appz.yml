@@ -12,6 +12,8 @@ build:
 
 deploy:
   context: sidharth-v/DEV
+  oidc: inherit
+  ingress: service
   replicas: 1
   port: 
    - 8080
